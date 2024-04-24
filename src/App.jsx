@@ -4,7 +4,7 @@ function App() {
 
   return (
     <main>
-      <h1 className='text-red'>Tailwind with react with vite.</h1>
+      <h1 className='text-red-500 text-xl'>Tailwind with react with vite.</h1>
     </main>
   )
 }
