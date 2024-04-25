@@ -1,4 +1,3 @@
-import Login from './login.jsx'
 import Signup from './signup.jsx'
 
 const LoginSignupHub = () => {
