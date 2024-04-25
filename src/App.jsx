@@ -1,7 +1,7 @@
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom"
-import Signup from './components/signup'
-import Login from "./components/login"
-import LoginSignupHub from "./components/loginSignupHub"
+import Signup from './components/Signup.jsx'
+import Login from "./components/Login.jsx"
+import LoginSignupHub from "./components/LoginSignupHub.jsx"
 
 function App() {
 

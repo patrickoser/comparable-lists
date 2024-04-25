@@ -1,4 +1,4 @@
-import Signup from './signup.jsx'
+import Signup from './Signup.jsx'
 
 const LoginSignupHub = () => {
     return (
