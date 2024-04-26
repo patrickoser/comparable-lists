@@ -1,5 +1,5 @@
 Next: Figure out whats wrong with tailwind.
-Setup browser router
+Setup browser router  
 Write CRUD operations
 Setup temporary file with axios to test out CRUD operations
 Look into state management packages like easy-peasy.
