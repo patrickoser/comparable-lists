@@ -21,7 +21,7 @@ A sign up page
 A profile page displaying all of their lists.
 
 The individual lists with the users products/information
-There should be a widget that hovers on the side of each amazon product page that allows the user to click and send the product the current/active list or right click and add to a different list.
+There should be a widget that hovers on the side of each amazon product page that allows the user to click and send the product the current/active list or right click and add to a different list. 
 
 An option to right click anywhere on the product page and add the product to a list should also be available.
 
