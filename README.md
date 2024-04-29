@@ -1,4 +1,4 @@
-Next: Figure out whats wrong with tailwind.
+Next: 
 
 Setup browser router  
 
@@ -6,7 +6,7 @@ Write CRUD operations
 
 Setup temporary file with axios to test out CRUD operations
 
-Look into state management packages like easy-peasy.
+Look into state management packages like easy-peasy/Redux.
 
 Introdction: This is an app that will provide a simple and clean UI/UX for users to create lists and compare items on amazon.
 
