@@ -1,5 +1,9 @@
 Next: 
 
+Create component that generates lists
+
+Component that populates lists onto profile.
+
 Setup browser router  
 
 Write CRUD operations
