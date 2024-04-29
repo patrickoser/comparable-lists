@@ -1,5 +1,9 @@
 Next: 
 
+Get familiar with Tailwind and practice by styling login and signup pages.
+
+A profile page to display your lists.
+
 Create component that generates lists
 
 Component that populates lists onto profile.
