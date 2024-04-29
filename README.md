@@ -16,6 +16,8 @@ Setup temporary file with axios to test out CRUD operations
 
 Look into state management packages like easy-peasy/Redux.
 
+Check out Firestore/firebase.
+
 Introdction: This is an app that will provide a simple and clean UI/UX for users to create lists and compare items on amazon.
 
 A google extension that lets you add amazon products to a list that you can customize to help you compare different products side by side from amazon. You can create your profile and there will be a button on the side of the page that you can click to send that product to your comparison page and view all of the products you are interested in, side by side, and customize which details about the products that you want to see.
