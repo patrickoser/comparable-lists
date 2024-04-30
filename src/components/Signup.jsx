@@ -15,14 +15,15 @@ const Signup = () => {
         <main className="flex justify-center">
             <section>
                 <h2 className="text-center">Signup</h2>
-                <form onSubmit={handleSignup}>
-                    <section>
+                <form onSubmit={handleSignup} className="border">
+                    <section className="flex flex-col p-4">
                         <input 
                             type="email"
                             placeholder="Enter email..."
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             required
+                            className="border"
                         />
                         <input 
                             type="password"
@@ -30,6 +31,7 @@ const Signup = () => {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             required
+                            className="border"
                         />
                         <input 
                             type="password"
@@ -37,11 +39,12 @@ const Signup = () => {
                             value={confirmPassword}
                             onChange={(e) => setConfirmPassword(e.target.value)}
                             required
+                            className="border"
                         />
                     </section>
                     <section className="flex justify-center">
-                        <button type="submit">Signup</button>
-                        <Link to="/login"><button>Login</button></Link>
+                        <button type="submit" className="mr-1">Signup</button>
+                        <Link to="/login"><button className="ml-1">Login</button></Link>
                     </section>
                 </form>
             </section>
