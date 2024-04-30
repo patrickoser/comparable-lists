@@ -12,7 +12,7 @@ const Signup = () => {
     }
 
     return (
-        <main className="bg-midnight">
+        <main className="">
             <h2 className="">Signup</h2>
             <form onSubmit={handleSignup}>
                 <input 
