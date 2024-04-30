@@ -16,27 +16,29 @@ const Signup = () => {
             <section>
                 <h2 className="text-center">Signup</h2>
                 <form onSubmit={handleSignup}>
-                    <input 
-                        type="email"
-                        placeholder="Enter email..."
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                    />
-                    <input 
-                        type="password"
-                        placeholder="Enter password..."
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                        required
-                    />
-                    <input 
-                        type="password"
-                        placeholder="Confirm password..."
-                        value={confirmPassword}
-                        onChange={(e) => setConfirmPassword(e.target.value)}
-                        required
-                    />
+                    <section>
+                        <input 
+                            type="email"
+                            placeholder="Enter email..."
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
+                        />
+                        <input 
+                            type="password"
+                            placeholder="Enter password..."
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            required
+                        />
+                        <input 
+                            type="password"
+                            placeholder="Confirm password..."
+                            value={confirmPassword}
+                            onChange={(e) => setConfirmPassword(e.target.value)}
+                            required
+                        />
+                    </section>
                     <section className="flex justify-center">
                         <button type="submit">Signup</button>
                         <Link to="/login"><button>Login</button></Link>
