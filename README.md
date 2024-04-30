@@ -1,4 +1,7 @@
 Next: 
+Make sure you can use intellisense with tailwind. It will give
+you recommendations based on what you have typed and examples
+of what those rules would look like in css when you hover.
 
 Get familiar with Tailwind and practice by styling login and signup pages.
 
