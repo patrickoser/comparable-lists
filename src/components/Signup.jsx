@@ -12,11 +12,11 @@ const Signup = () => {
     }
 
     return (
-        <main className="flex justify-center">
+        <main className="flex justify-center items-center h-screen">
             <section>
                 <h2 className="text-center">Signup</h2>
                 <form onSubmit={handleSignup} className="border">
-                    <section className="flex flex-col p-4">
+                    <section className="flex flex-col p-4 gap-2">
                         <input 
                             type="email"
                             placeholder="Enter email..."
