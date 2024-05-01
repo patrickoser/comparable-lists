@@ -14,7 +14,7 @@ const Signup = () => {
     return (
         <main className="flex justify-center items-center h-screen">
             <section>
-                <h2 className="text-center">Signup</h2>
+                <h2 className="text-center">Not Signed Up Yet?</h2>
                 <form onSubmit={handleSignup} className="border rounded">
                     <section className="flex flex-col p-4 gap-2">
                         <label for="email">Email address</label>
