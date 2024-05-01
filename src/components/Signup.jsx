@@ -15,7 +15,7 @@ const Signup = () => {
         <main className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
             <section>
                 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-                    <h2 className="text-center">Not Signed Up Yet?</h2>
+                    <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Not Signed Up Yet?</h2>
                 </div>
                 <form onSubmit={handleSignup} className="border rounded">
                     <section className="flex flex-col p-4 gap-2">
