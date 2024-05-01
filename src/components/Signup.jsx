@@ -61,7 +61,7 @@ const Signup = () => {
                         <button type="submit" className="mr-1">Signup</button>
                         <p class="mt-10 text-center text-sm text-gray-500">
                             Already have an account?
-                            <Link to="/login"><button className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"> Login here!</button></Link>
+                            <Link to="/login"><button className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Login here!</button></Link>
                         </p>
                         
                     </section>
