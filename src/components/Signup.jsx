@@ -12,9 +12,11 @@ const Signup = () => {
     }
 
     return (
-        <main className="flex justify-center items-center h-screen">
+        <main className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
             <section>
-                <h2 className="text-center">Not Signed Up Yet?</h2>
+                <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+                    <h2 className="text-center">Not Signed Up Yet?</h2>
+                </div>
                 <form onSubmit={handleSignup} className="border rounded">
                     <section className="flex flex-col p-4 gap-2">
                         <label for="email">Email address</label>
