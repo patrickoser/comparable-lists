@@ -59,7 +59,11 @@ const Signup = () => {
                     </div>
                     <section className="flex justify-center">
                         <button type="submit" className="mr-1">Signup</button>
-                        <Link to="/login"><button className="ml-1">Login</button></Link>
+                        <p class="mt-10 text-center text-sm text-gray-500">
+                            Already have an account?
+                            <Link to="/login"><button className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"> Login here!</button></Link>
+                        </p>
+                        
                     </section>
                 </form>
             </div>
