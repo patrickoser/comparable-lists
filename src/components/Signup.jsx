@@ -15,8 +15,9 @@ const Signup = () => {
         <main className="flex justify-center items-center h-screen">
             <section>
                 <h2 className="text-center">Signup</h2>
-                <form onSubmit={handleSignup} className="border">
+                <form onSubmit={handleSignup} className="border rounded">
                     <section className="flex flex-col p-4 gap-2">
+                        <label for="email">Email address</label>
                         <input 
                             type="email"
                             placeholder="Enter email..."
@@ -25,6 +26,7 @@ const Signup = () => {
                             required
                             className="border"
                         />
+                        <label for="password">Password</label>
                         <input 
                             type="password"
                             placeholder="Enter password..."
@@ -33,6 +35,7 @@ const Signup = () => {
                             required
                             className="border"
                         />
+                        <label for="password">Confirm password</label>
                         <input 
                             type="password"
                             placeholder="Confirm password..."
