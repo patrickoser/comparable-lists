@@ -8,7 +8,7 @@ const Signup = () => {
 
     const handleSignup = (e) => {
         e.preventDefault()
-        console.log("Signup email: ", email, "password: ", password)
+        console.log("Signup email: ", email, "password: ", password, "confirm password: ", confirmPassword)
     }
 
     return (
