@@ -11,7 +11,9 @@ const Login = () => {
 
     return (
         <main className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
-            <h2>Sign in to your account.</h2>
+            <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+                <h2>Sign in to your account.</h2>
+            </div>
             <form onSubmit={handleLogin}>
                 <section>
                     <input
