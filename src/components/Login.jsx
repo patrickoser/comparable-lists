@@ -33,6 +33,7 @@ const Login = () => {
                     </div>
                     <div>
                         <div className="flex items-center justify-between">
+                            <label for="password" className="block text-sm font-medium leading-6 text-gray-900">Password</label>
                             <input
                                 type="password"
                                 name="password"
