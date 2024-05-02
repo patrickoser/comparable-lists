@@ -5,6 +5,9 @@ of what those rules would look like in css when you hover.
 
 Get familiar with Tailwind and practice by styling login and signup pages.
 
+Add the main colors you will be using through the project as variables in the
+tailwind.config.
+
 A profile page to display your lists.
 
 Create component that generates lists
