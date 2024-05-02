@@ -11,7 +11,7 @@ const Login = () => {
 
     return (
         <main>
-            <h2>Login</h2>
+            <h2>Sign in to your account.</h2>
             <form onSubmit={handleLogin}>
                 <section>
                     <input
