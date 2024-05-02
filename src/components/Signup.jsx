@@ -19,7 +19,7 @@ const Signup = () => {
             <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
                 <form onSubmit={handleSignup} className="space-y-6">
                     <div>
-                        <label for="email" className="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+                        <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">Email address</label>
                         <div>
                             <input 
                                 type="email"
@@ -33,7 +33,7 @@ const Signup = () => {
                         </div>
                     </div>
                     <div>
-                        <label for="password" className="block text-sm font-medium leading-6 text-gray-900">Password</label>
+                        <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">Password</label>
                         <div className="mt-2">
                             <input 
                                 type="password"
@@ -47,7 +47,7 @@ const Signup = () => {
                         </div>
                     </div>
                     <div>
-                        <label for="password" className="block text-sm font-medium leading-6 text-gray-900">Confirm password</label>
+                        <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">Confirm password</label>
                         <div className="mt-2">
                             <input 
                                 type="password"
@@ -63,7 +63,7 @@ const Signup = () => {
                     <div>
                         <button type="submit" className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Create Account</button>
                     </div>
-                    <p class="mt-10 text-center text-sm text-gray-500">
+                    <p className="mt-10 text-center text-sm text-gray-500">
                         Already have an account?&nbsp;
                         <Link to="/login"><button className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Login here!</button></Link>
                     </p>
