@@ -15,8 +15,9 @@ const Login = () => {
                 <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account.</h2>
             </div>
             <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-                <form onSubmit={handleLogin} className="">
-                    <section>
+                <form onSubmit={handleLogin} className="space-y-6">
+                    <div>
+                        <label for="email" className="block text-sm font-medium leading-6 text-gray-900"></label>
                         <input
                             type="email"
                             name="email"
@@ -25,6 +26,7 @@ const Login = () => {
                             onChange={(e) => setEmail(e.target.value)}
                             required
                         />
+                    </div>
                         <input
                             type="password"
                             name="password"
@@ -33,11 +35,10 @@ const Login = () => {
                             onChange={(e) => setPassword(e.target.value)}
                             required
                         />
-                    </section>
-                    <section>
+
                         <button type="submit">Login</button>
                         <Link to="/signup"><button>Signup</button></Link>
-                    </section>
+
                 </form>
             </div>
         </main>
