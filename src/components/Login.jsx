@@ -42,8 +42,10 @@ const Login = () => {
                                 name="password"
                                 placeholder="Enter password..."
                                 value={password}
+                                autoComplete="current-password"
                                 onChange={(e) => setPassword(e.target.value)}
                                 required
+                                className=""
                             />
                             <button type="submit">Login</button>
                             <Link to="/signup"><button>Signup</button></Link>
