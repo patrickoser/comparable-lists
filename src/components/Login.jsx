@@ -17,28 +17,34 @@ const Login = () => {
             <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
                 <form onSubmit={handleLogin} className="space-y-6">
                     <div>
-                        <label for="email" className="block text-sm font-medium leading-6 text-gray-900"></label>
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="Enter email..."
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
+                        <label for="email" className="block text-sm font-medium leading-6 text-gray-900">Email Address</label>
+                        <div className="mt-2">
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Enter email..."
+                                value={email}
+                                autoComplete="email"
+                                onChange={(e) => setEmail(e.target.value)}
+                                required
+                                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                            />
+                        </div>
                     </div>
-                        <input
-                            type="password"
-                            name="password"
-                            placeholder="Enter password..."
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            required
-                        />
-
-                        <button type="submit">Login</button>
-                        <Link to="/signup"><button>Signup</button></Link>
-
+                    <div>
+                        <div className="flex items-center justify-between">
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder="Enter password..."
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                required
+                            />
+                            <button type="submit">Login</button>
+                            <Link to="/signup"><button>Signup</button></Link>
+                        </div>
+                    </div>
                 </form>
             </div>
         </main>
