@@ -4,7 +4,11 @@ import React from "react";
 
 const Lists = () => {
     return (
-        <div></div>
+        // Takes in each List and maps them out. Could
+        // maybe use a seperate Feed component.
+        <div>
+            
+        </div>
     )
 }
 
