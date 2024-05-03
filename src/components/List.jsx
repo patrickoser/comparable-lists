@@ -1,1 +1,9 @@
-// Individual lists that are created and added to users list of lists
+import React from "react";
+
+const List = () => {
+    return (
+        
+    )
+}
+
+export default List
