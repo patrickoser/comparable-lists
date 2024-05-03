@@ -4,7 +4,11 @@ import React from "react";
 
 const Profile = () => {
     return (
-        <div></div>
+        <div>
+            <header></header>
+            <main></main>
+            <footer></footer>
+        </div>
     )
 }
 
