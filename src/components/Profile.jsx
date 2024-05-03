@@ -5,7 +5,16 @@ import React from "react";
 const Profile = () => {
     return (
         <div>
-            <header></header>
+            <header>
+                <section>
+                    <h2>Comparable</h2>
+                </section>
+                <section>
+                    <button>New List</button>
+                    <button>Contact</button>
+                    <button>Settings</button>
+                </section>
+            </header>
             <main></main>
             <footer></footer>
         </div>
