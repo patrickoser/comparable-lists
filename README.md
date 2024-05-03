@@ -3,6 +3,8 @@ Next:
 Style Login to alert user when username/pw was entered wrong/not found and same for
 Signup when passwords dont match or an invalid email was entered.
 
+Check out Material-tailwind.
+
 Add the main colors you will be using through the project as variables in the tailwind.config.
 
 A profile page to display your lists.
