@@ -7,9 +7,11 @@ const Header = () => {
                 <h2>Comparable</h2>
             </section>
             <nav>
-                <li><button>New List</button></li>
-                <li><button>Contact</button></li>
-                <li><button>Settings</button></li>
+                <ul>
+                    <li><button>New List</button></li>
+                    <li><button>Contact</button></li>
+                    <li><button>Settings</button></li>
+                </ul>
             </nav>
         </header>
     )
