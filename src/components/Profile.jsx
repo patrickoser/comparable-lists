@@ -9,7 +9,6 @@ const Profile = () => {
             <main>
                 <Lists />
             </main>
-            <footer></footer>
         </div>
     )
 }
