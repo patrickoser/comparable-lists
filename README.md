@@ -7,10 +7,6 @@ Check out Material-tailwind.
 
 Add the main colors you will be using through the project as variables in the tailwind.config.
 
-A profile page to display your lists.
-
-Create component that generates lists.
-
 A Feed component that maps the lists to the Profile.
 
 Component that populates lists onto profile.
