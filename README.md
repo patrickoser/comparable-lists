@@ -11,7 +11,8 @@ A Feed component that maps the lists to the Profile.
 
 Set up Layout component in browser router.
 
-Setup browser router  
+Look into 'createBroswerRouter' and figure out its benefits 
+over 'browserRouter."
 
 Write CRUD operations
 
