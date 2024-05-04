@@ -9,7 +9,7 @@ Add the main colors you will be using through the project as variables in the ta
 
 A Feed component that maps the lists to the Profile.
 
-Component that populates lists onto profile.
+Set up Layout component in browser router.
 
 Setup browser router  
 
