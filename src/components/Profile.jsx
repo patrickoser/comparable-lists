@@ -9,11 +9,11 @@ const Profile = () => {
                 <section>
                     <h2>Comparable</h2>
                 </section>
-                
+                <nav>
                     <button>New List</button>
                     <button>Contact</button>
                     <button>Settings</button>
-                
+                </nav>
             </header>
             <main></main>
             <footer></footer>
