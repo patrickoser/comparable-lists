@@ -1,4 +1,5 @@
 import React from "react";
+import Lists from "./Lists"
 
 // Holds each users lists and settings
 
@@ -15,7 +16,9 @@ const Profile = () => {
                     <li><button>Settings</button></li>
                 </nav>
             </header>
-            <main></main>
+            <main>
+                <Lists />
+            </main>
             <footer></footer>
         </div>
     )
