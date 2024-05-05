@@ -4,6 +4,7 @@ import Lists from "./Lists"
 // Holds each users lists and settings
 
 const Profile = () => {
+    
     return (
         <div>
             <main>
