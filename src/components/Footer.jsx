@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <div>
-            <footer>
+            <footer className="text-center">
                 <a href="https://github.com/patrickoser">My Github</a>
             </footer>
         </div>
