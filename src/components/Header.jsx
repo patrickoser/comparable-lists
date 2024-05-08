@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -8,9 +9,9 @@ const Header = () => {
             </section>
             <nav>
                 <ul className="flex flex-row justify-center">
-                    <li><button>New List</button></li>
-                    <li><button>Contact</button></li>
-                    <li><button>Settings</button></li>
+                    <li><Link>New List</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/settings">Settings</Link></li>
                 </ul>
             </nav>
         </header>
