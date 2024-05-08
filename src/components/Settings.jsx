@@ -1,1 +1,11 @@
-// Hub for settings the user can change within the app.
+import React from "react";
+
+const Settings = () => {
+    return (
+        <div>
+            <h1>Settings</h1>
+        </div>
+    )
+}
+
+export default Settings
