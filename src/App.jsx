@@ -4,6 +4,8 @@ import Login from "./components/Login.jsx"
 import LoginSignupHub from "./components/LoginSignupHub.jsx"
 import Header from "./components/Header.jsx"
 import Footer from "./components/Footer.jsx"
+import Settings from "./components/Contact.jsx"
+import Contact from "./components/Contact.jsx"
 
 function App() {
 
