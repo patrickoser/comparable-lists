@@ -18,6 +18,8 @@ function App() {
           <Route path='/' element={<LoginSignupHub />} />
           <Route path="signup" element={<Signup />} />
           <Route path="login" element={<Login />} /> 
+          <Route path="settings" element={<Settings />} />
+          <Route path="conntact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
