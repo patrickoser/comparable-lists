@@ -6,6 +6,7 @@ import Header from "./components/Header.jsx"
 import Footer from "./components/Footer.jsx"
 import Settings from "./components/Settings.jsx"
 import Contact from "./components/Contact.jsx"
+import Profile from "./components/Profile.jsx"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="login" element={<Login />} /> 
           <Route path="settings" element={<Settings />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="profile" element={<Profile />} />
         </Routes>
         <Footer />
       </Router>
