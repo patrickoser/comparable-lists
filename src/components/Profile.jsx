@@ -8,6 +8,7 @@ const Profile = () => {
     return (
         <div>
             <main>
+                <h2 className="text-center">Profile</h2>
                 <Lists />
             </main>
         </div>
