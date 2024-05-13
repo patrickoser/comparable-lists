@@ -45,7 +45,6 @@ When looking at the list section of amazon that displays products you searched f
 
 Maybe add a little button to the picture or somewhere to the cards on amazon search page that resembles the widget you see on the full product page to make it even easier obvious how to add to the list.
 
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
