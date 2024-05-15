@@ -1,5 +1,7 @@
 Next: 
 
+We ride again tomorrow!
+
 Style Login to alert user when username/pw was entered wrong/not found and same for
 Signup when passwords dont match or an invalid email was entered.
 
