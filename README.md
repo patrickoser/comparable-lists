@@ -2,12 +2,15 @@ Next:
 
 We ride again tomorrow!... Right??
 
-Style Login to alert user when username/pw was entered wrong/not found and same for
-Signup when passwords dont match or an invalid email was entered.
+Style Login to alert user when username/pw was entered wrong
+not found and same for
+Signup when passwords dont match or an invalid email was e
+ntered.
 
 Check out Material-tailwind.
 
-Add the main colors you will be using through the project as variables in the tailwind.config.
+Add the main colors you will be using through the project as 
+variables in the tailwind.config.
 
 A Feed component that maps the lists to the Profile.
 
@@ -55,19 +58,34 @@ A sign up page
 A profile page displaying all of their lists.
 
 The individual lists with the users products/information
-There should be a widget that hovers on the side of each amazon product page that allows the user to click and send the product the current/active list or right click and add to a different list. 
+There should be a widget that hovers on the side of each 
+amazon product page that allows the user to click and send 
+the product the current/active list or right click and add to 
+a different list. 
 
-An option to right click anywhere on the product page and add the product to a list should also be available.
+An option to right click anywhere on the product page and add 
+the product to a list should also be available.
 
-When looking at the list section of amazon that displays products you searched for you should be able to right click on those and send them to lists without ever having to opne the full page.
+When looking at the list section of amazon that displays 
+products you searched for you should be able to right click 
+on those and send them to lists without ever having to opne 
+the full page.
 
-Maybe add a little button to the picture or somewhere to the cards on amazon search page that resembles the widget you see on the full product page to make it even easier obvious how to add to the list.
+Maybe add a little button to the picture or somewhere to the 
+cards on amazon search page that resembles the widget you see 
+on the full product page to make it even easier obvious how 
+to add to the list.
 
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working 
+in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [@vitejs/plugin-react](https://github.com/vitejs/
+vite-plugin-react/blob/main/packages/plugin-react/README.md) 
+uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/
+vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast 
+Refresh
