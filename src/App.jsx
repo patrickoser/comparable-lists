@@ -9,8 +9,6 @@ import Contact from "./components/Contact.jsx"
 import Profile from "./components/Profile.jsx"
 
 function App() {
-
-
   return (
     <main>
       <Router>
