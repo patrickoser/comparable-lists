@@ -24,13 +24,29 @@ Look into state management packages like easy-peasy/Redux.
 
 Check out Firestore/firebase.
 
-Look up how to pull information from amazon webpages and how to place buttons in specific spots on those pages so you can reference products.
+Look up how to pull information from amazon webpages and how 
+to place buttons in specific spots on those pages so you can 
+reference products.
 
-Introdction: This is an app that will provide a simple and clean UI/UX for users to create lists and compare items on amazon.
+Introdction: This is an app that will provide a simple and 
+clean UI/UX for users to create lists and compare items on 
+amazon.
 
-A google extension that lets you add amazon products to a list that you can customize to help you compare different products side by side from amazon. You can create your profile and there will be a button on the side of the page that you can click to send that product to your comparison page and view all of the products you are interested in, side by side, and customize which details about the products that you want to see.
+A google extension that lets you add amazon products to a
+list that you can customize to help you compare different
+products side by side from amazon. You can create your 
+profile and there will be a button on the side of the page 
+that you can click to send that product to your comparison 
+page and view all of the products you are interested in, side 
+by side, and customize which details about the products that 
+you want to see.
 
-They will appear as cards on the screen. The app will pull in the pictures associated with the product, the title/name, the price and any relevant information in the product description. Allowing users to create there own custom lists that allows them to view these products side by side with a cleaner UI/UX experience.
+They will appear as cards on the screen. The app will pull in 
+the pictures associated with the product, the title/name, the 
+price and any relevant information in the product 
+description. Allowing users to create there own custom lists 
+that allows them to view these products side by side with a 
+cleaner UI/UX experience.
 
 Features: A login page.
 
