@@ -10,6 +10,7 @@ import Profile from "./components/Profile.jsx"
 
 function App() {
   // We gonna get after it
+  
   return (
     <main>
       <Router>
