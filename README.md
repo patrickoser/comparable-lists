@@ -19,7 +19,7 @@ over 'browserRouter."
 Write CRUD operations for the lists and for adding individual
 items to the lists.
 
-Setup temporary file with axios to test out CRUD operations
+Setup temporary file with axios to test out CRUD operations.
 
 Look into state management packages like easy-peasy/Redux.
 
@@ -51,7 +51,7 @@ cleaner UI/UX experience.
 
 Features: A login page.
 
-A sign up page
+A sign up page.
 
 A profile page displaying all of their lists.
 
