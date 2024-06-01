@@ -1,9 +1,8 @@
 Next: 
 
 Style Login to alert user when username/pw was entered wrong
-not found and same for
-Signup when passwords dont match or an invalid email was e
-ntered.
+not found and same for Signup when passwords dont match or an 
+invalid email was entered.
 
 Check out Material-tailwind.
 
@@ -12,7 +11,7 @@ variables in the tailwind.config.
 
 A Feed component that maps the lists to the Profile.
 
-Set up Layout component in browser router.
+Set up Layout component in browser router. Check if needed.
 
 Look into 'createBroswerRouter' and figure out its benefits 
 over 'browserRouter."
