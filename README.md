@@ -17,7 +17,8 @@ Set up Layout component in browser router.
 Look into 'createBroswerRouter' and figure out its benefits 
 over 'browserRouter."
 
-Write CRUD operations
+Write CRUD operations for the lists and for adding individual
+items to the lists.
 
 Setup temporary file with axios to test out CRUD operations
 
