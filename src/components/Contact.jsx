@@ -27,7 +27,7 @@ const Contact = () => {
                     <div className="emailCon">
                         <label>Email</label>
                         <input 
-                            type="text"
+                            type="email"
                             name="email"
                             placeholder="Your email"
                             required
