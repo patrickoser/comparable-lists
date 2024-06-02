@@ -4,7 +4,16 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div><h1 className="text-center">Contact</h1></div>
+        <main>
+            <section>
+                <h1>Need to get in touch?</h1>
+                <p>Notice something about the site that isn't working 
+                    the way it should, have an idea how it could be better, 
+                    or just need to talk? Send me a message with your contact
+                    information I will get back to you ASAP.
+                </p>
+            </section>
+        </main>
     )
 }
 
