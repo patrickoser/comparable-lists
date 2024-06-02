@@ -43,7 +43,7 @@ const Contact = () => {
                         rows="10"
                         required
                     />
-                    <button type="submit"></button>
+                    <button type="submit">Submit</button>
                 </form>
             </section>
         </main>
