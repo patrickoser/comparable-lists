@@ -13,6 +13,39 @@ const Contact = () => {
                     information I will get back to you ASAP.
                 </p>
             </section>
+            <section>
+                <form action="https://formsubmit.co/patrick.oser1@gmail.com" method="POST">
+                    <div className="nameCon">
+                        <label>Name:</label>
+                        <input 
+                            type="text"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        />
+                    </div>
+                    <div className="emailCon">
+                        <label>Email</label>
+                        <input 
+                            type="text"
+                            name="email"
+                            placeholder="Your email"
+                            required
+                        />
+                    </div>
+                    <label>Message</label>
+                    <input 
+                        type="text"
+                        name="message"
+                        id="message"
+                        placeholder="Your message"
+                        cols="30"
+                        rows="10"
+                        required
+                    />
+                    <button type="submit"></button>
+                </form>
+            </section>
         </main>
     )
 }
