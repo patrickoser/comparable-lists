@@ -7,7 +7,6 @@ import Footer from "./components/Footer.jsx"
 import Settings from "./components/Settings.jsx"
 import Contact from "./components/Contact.jsx"
 import Profile from "./components/Profile.jsx"
-import Contact from "./components/Contact.jsx"
 
 function App() {
   // We gonna get after it...
