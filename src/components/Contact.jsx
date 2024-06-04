@@ -1,6 +1,6 @@
 import React from "react";
 
-// Use same contact form from blog
+// Use same contact form from blog.
 
 const Contact = () => {
     return (
