@@ -33,16 +33,18 @@ const Contact = () => {
                             required
                         />
                     </div>
-                    <label>Message</label>
-                    <input 
-                        type="text"
-                        name="message"
-                        id="message"
-                        placeholder="Your message"
-                        cols="30"
-                        rows="10"
-                        required
-                    />
+                    <div>
+                        <label>Message</label>
+                        <input 
+                            type="text"
+                            name="message"
+                            id="message"
+                            placeholder="Your message"
+                            cols="30"
+                            rows="10"
+                            required
+                        />
+                    </div>
                     <button type="submit">Submit</button>
                 </form>
             </section>
