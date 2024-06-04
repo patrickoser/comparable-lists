@@ -45,6 +45,7 @@ const Contact = () => {
                             required
                         />
                     </div>
+                    <input type="hidden" name="_captcha" value={false} />
                     <button type="submit">Submit</button>
                 </form>
             </section>
