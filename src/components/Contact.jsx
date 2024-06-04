@@ -27,7 +27,7 @@ const Contact = () => {
                     <div className="emailCon">
                         <label>Email</label>
                         <input 
-                            type="email"
+                            type="text"
                             name="email"
                             placeholder="Your email"
                             required
@@ -36,7 +36,7 @@ const Contact = () => {
                     <div className="messageCon">
                         <label>Message</label>
                         <input 
-                            type="text"
+                            type="textarea"
                             name="message"
                             id="message"
                             placeholder="Your message"
