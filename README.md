@@ -1,6 +1,6 @@
 Next: 
 
-Tackle one thing at a time.
+Tackle one thing at a time. You got this!
 
 Style Login to alert user when username/pw was entered wrong
 not found and same for Signup when passwords dont match or an 
