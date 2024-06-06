@@ -14,7 +14,7 @@ Check out Material-tailwind.
 Add the main colors you will be using through the project as 
 variables in the tailwind.config.
 
-A Feed component that maps the lists to the Profile.
+A Feed component that maps the lists to the Profile. 
 
 Set up Layout component in browser router. Check if needed.
 
