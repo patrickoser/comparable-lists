@@ -28,7 +28,7 @@ Setup temporary file with axios to test out CRUD operations.
 
 Look into state management packages like easy-peasy/Redux.
 
-Check out Firestore/firebase.
+Check out Firestore/firebase. 
 
 Look up how to pull information from amazon webpages and how 
 to place buttons in specific spots on those pages so you can 
